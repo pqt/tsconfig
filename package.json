@@ -1,0 +1,26 @@
+{
+  "name": "@pqt/tsconfig",
+  "version": "1.0.1",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "main": "./tsconfig.json",
+  "files": [
+    "./tsconfig.json"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,graphql,md}\""
+  },
+  "devDependencies": {
+    "@pqt/prettier-config": "workspace:*",
+    "prettier": "3.0.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.1.6"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+        "optional": false
+    }
+  }
+}
